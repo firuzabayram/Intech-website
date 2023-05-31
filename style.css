@@ -85,7 +85,8 @@ margin-top: 67px;
     padding: 200px;
     line-height: 72px;
     size: 48px;
-    background-color:  rgba(1, 9, 18, 1);
+    background: #010204;
+
     ;
    
   }
@@ -166,14 +167,15 @@ margin-top: 67px;
 /* portfolio */
 
 .portfolio{
-  background: rgba(1, 9, 18, 1);
+
+background: #010204;
   text-align: center;
 }
 .portfolio img{
     
-  height: 280px;
-  width: 185px;
-  left: 143px;
-  top: 160px;
+  height: 1080px;
+  width: 1185px;
+  margin-left: -4px;
+  margin-top: 160px;
   
 }
