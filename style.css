@@ -113,8 +113,8 @@ width: 200px;
     line-height: 72px;
     size: 48px;
     background: #010204;
-
-    ;
+    row-gap: 25px;
+    
    
   }
 
@@ -122,9 +122,24 @@ width: 200px;
     display: flex;
     justify-content: flex-start;
     text-align: start;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
+  .shekil1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .shekil2{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
  h3{
   color: #fff;
   text-align: start;
@@ -156,11 +171,16 @@ width: 200px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: all 0.1s 1s;
+    transition: transform 1s
+    
   }
   
   
   
-    .course-col:hover{ background-image: linear-gradient(180deg, #07D2FB , #0819B5, #0D0A2C);;transition: 1s;
+    .course-col:hover{ background-image: linear-gradient(180deg, #0819B5, #07D2FB, #0D0A2C);
+      transition: 1s;
+      transform: scale(1.1);
      
     }
   
