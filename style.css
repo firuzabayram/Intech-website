@@ -27,7 +27,7 @@ margin-top: 67px;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-      url(photos/wallpaperflare\ 1\ \(1\).png);
+      url(photos/website\ background.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -38,7 +38,7 @@ margin-top: 67px;
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -76,6 +76,31 @@ margin-top: 67px;
     color: #ffffff;
     transition: 1s;
   }
+
+  li{
+    list-style-type: none;
+  }
+  /* --navbar menu-------------------------------------- */
+  .navbar-menu{
+    color: #fff;
+    list-style-type: none;
+    display: none;
+  }
+  .navbar-menu li{
+    margin: 1rem;
+  }
+  
+  .open{
+    display: flex;
+  }
+
+ .nav-link{
+width: 200px;
+ }
+
+ .nav-link1{
+  width: 70px;
+ }
 
   /* card section */
 
@@ -184,4 +209,37 @@ background: #010204;
   
 }
 
-/* stars */
+.navbar {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link img {
+  width: 20px;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
