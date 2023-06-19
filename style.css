@@ -458,10 +458,16 @@ background: #050313;
 
 .photos2{
   background: #000;
+  width: 100%;
 }
-.yanyana{
-  display: flex;
-  justify-content: center;
-  text-align: center;
 
+.photos2 img{
+  height: 400px;
+  width:1185px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 160px;
 }
+
+/* radios */
+
