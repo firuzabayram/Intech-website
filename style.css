@@ -650,3 +650,56 @@ text-align: center;
 img{
   padding-bottom: 100px;
 }
+
+.image1{
+  height: 200px;
+  width: 50%;
+}
+
+/* shekil bolumu */
+
+.photo8{
+  height: 500px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+ 
+}
+.photo9{
+  height: 500px;
+  width: 700px;
+  /* margin-left: 100px; */
+  margin-top: 100px;
+  
+}
+
+.photo10{
+  height: 400px;
+  width: 500px;
+  margin-top: -190px;
+  margin-left: 100px;
+}
+
+.photo11{
+  height: 600px;
+  width: 500px;
+  margin-top: -3px;
+  /* margin-left: 100px; */
+  margin-bottom: -200px;
+}
+
+.photo13{
+  height: 500px;
+  width: 500px;
+  margin-top: -380px;
+  margin-left: 100px;
+  margin-bottom: -200px;
+}
+
+.photo14{
+  height: 300px;
+  width: 500px;
+  /* margin-left: 100px; */
+
+}
+
