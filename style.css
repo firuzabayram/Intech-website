@@ -703,3 +703,25 @@ img{
 
 }
 
+.umumihs{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.photo16{
+  margin-top: -90px;
+  width: 700px;
+  height: 400px;
+}
+
+.photo17{
+  width: 800px;
+  height: 700px;
+}
+
+.photo15{
+width: 700px;
+height: 400px;
+}
